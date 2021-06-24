@@ -1,0 +1,35 @@
+
+.date-screen{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.date-right{
+    /* border: 1px solid yellow; */
+    padding-top: 25px;
+    color: whitesmoke;
+}
+
+.date-left{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    color: whitesmoke;
+}
+
+.date-left h1{
+    color: #aedf62;
+    font-size: 3.5rem;
+}
+
+.date-left div{
+    /* border: 1px solid red; */
+    padding-top: 10px;
+}
+
+
