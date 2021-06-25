@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import './App.css'
 import './index.css'
 import Cards from "./components/Cards";
-
+import AddBtn from "./components/AddBtn";
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       </div>
       <div className="bottom-ctn">
         <Cards />
+        <AddBtn />
       </div>
     </div>
   );
