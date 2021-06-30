@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    padding: 2px 2px;
+    padding: 5px 5px;
     width: 90%;
     height: 20%;
     margin-bottom: 10px;
@@ -16,9 +16,36 @@
 .todo-cards-item .todo-info{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 5px;
 }
 
 .todo-cards-item .todo-info .todo-title{
     font-weight: bolder;
     margin-bottom: 5px;
+}
+
+.todo-extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.todo-extra .option-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-extra .option-icons .icon{
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.todo-extra .option-icons .delete-icon{
+    color: red;
+}
+
+.todo-extra .option-icons .edit-icon{
+    color: blue;
 }

@@ -2,6 +2,9 @@ import React from 'react'
 import CardItems from './CardItems'
 import '../components/Cards.css'
 import { TodoData } from '../API/TodoData'
+import AddBtn from './AddBtn'
+
+
 
 class Cards extends React.Component {
     render(){
@@ -17,6 +20,7 @@ class Cards extends React.Component {
         return (
             <div className="todo-cards">
                 {todoData}
+                <AddBtn />
             </div>
         )
     }  

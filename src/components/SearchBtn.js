@@ -7,8 +7,9 @@ class SearchBtn extends React.Component {
     render(){
         return (
             <div className="search-box">
+                <input type="text" className="input-search" placeholder="search"/>
                 <button className="btn-search"><FaSistrix /></button>
-                <input type="text" className="input-search" placeholder="Type to Search..."/>
+                
             </div>
         )
     }
